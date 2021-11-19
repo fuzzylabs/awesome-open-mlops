@@ -1,6 +1,6 @@
 # Open Source MLOps
 
-Fuzzy Labs' guide to the universe of open source MLOps tools.
+[Fuzzy Labs](https://fuzzylabs.ai)' guide to the universe of open source MLOps tools.
 
 ## Contents
 
@@ -17,7 +17,9 @@ Fuzzy Labs' guide to the universe of open source MLOps tools.
 
 # What is MLOps anyway?
 
-MLOps is a new discipline that helps people do train, deploy and run machine learning models successfully in production environments.
+MLOps (machine learning operations) is a discipline that helps people to train, deploy and run machine learning models successfully in production environments.
+
+There are a so many specialised tools for doing MLOps that it's difficult to know where to begin. To make matters worse, most tools fit into more than one category!
 
 # Data versioning
 
@@ -31,17 +33,16 @@ Read more in our [guide to data versioning](https://medium.com/p/5c93d6a58823).
 * Delta Lake
 * Dolt
 * LakeFS
-* [Git LFS](https://git-lfs.github.com)
 * [Pachyderm community edition](https://www.pachyderm.com/products/#community-edition)
 
 # Experiment tracking
 
+Machine learning involves a lot of experimentation. We end up training a lot of models, most of which are never intended to go into production, but represent progressive steps towards having something production-worthy. Experiment tracking tools are there to help us keep track of each experiment. What exactly do we need to track? typically this includes the code version, data version, input parameters, training performance metrics, as well as the final model assets.
+
 * Sacred
-* MLFlow
 * Tensorboard
-* DVC
-* ClearML
 * Guild.AI
+* MLFlow
 
 # Model training
 
@@ -59,7 +60,10 @@ Read more in our [guide to data versioning](https://medium.com/p/5c93d6a58823).
 
 # Model deployment and serving
 
+Model serving is the process of taking a trained model and presenting it behind a REST API, and this enables other software components to interact with a model. To make deployment of these model servers as simple as possible, it's commonplace to run them inside Docker containers and deploy them to a container orchestration system such as Kubernetes.
+
 * [BentoML](https://github.com/bentoml/BentoML)
+* [Bodywork](https://www.bodyworkml.com)
 
 # Model monitoring
 
@@ -75,4 +79,4 @@ Here are some more resources for MLOps, both open-source and proprietary.
 
 * [Top 10 Open Source MLOps Tools](https://thechief.io/c/editorial/top-10-open-source-mlops-tools)
 * [The Awesome MLOps List](https://github.com/visenger/awesome-mlops) - a mixture of open source and proprietory tools and platforms.
-
+* [Best open source MLOps tools](https://neptune.ai/blog/best-open-source-mlops-tools)
