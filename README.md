@@ -8,7 +8,6 @@ This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and
 * [Data versioning](#data-versioning)
 * [Experiment tracking](#experiment-tracking)
 * [Model training](#model-training)
-* [Model registries / storage](#model-registries-storage)
 * [Model deployment and serving](#model-deployment-and-serving)
 * [Model monitoring](#model-monitoring)
 * [Full stacks](#full-stacks)
@@ -33,20 +32,16 @@ You might wonder why you can't just store data in Git (or equivalent). There are
 
 Machine learning involves a lot of experimentation. We end up training a lot of models, most of which are never intended to go into production, but represent progressive steps towards having something production-worthy. Experiment tracking tools are there to help us keep track of each experiment. What exactly do we need to track? typically this includes the code version, data version, input parameters, training performance metrics, as well as the final model assets.
 
-* Sacred
-* Tensorboard
-* Guild.AI
-* MLFlow
+* [Sacred](https://github.com/IDSIA/sacred).
+* [Tensorboard](https://www.tensorflow.org/tensorboard).
+* [Guild.AI](https://guild.ai).
+* [MLFlow](https://mlflow.org).
 
 # Model training
 
-* MLFlow
-* Kubeflow
-* Metaflow
-
-# Model registries / storage
-
-* MLFlow
+* [MLFlow](https://mlflow.org).
+* [Kubeflow](https://www.kubeflow.org).
+* [Metaflow](https://metaflow.org).
 
 # Feature stores
 
@@ -61,12 +56,13 @@ Model serving is the process of taking a trained model and presenting it behind 
 
 # Model monitoring
 
-* [Evidently](https://evidentlyai.com)
-* [Boxkite ML](https://github.com/boxkite-ml/boxkite)
+* [Evidently](https://evidentlyai.com).
+* [Boxkite ML](https://github.com/boxkite-ml/boxkite).
 
 # Full stacks
 
-* https://github.com/datarevenue-berlin/OpenMLOps
+* [https://github.com/datarevenue-berlin/OpenMLOps](Open MLOps).
+* [https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat](You Don't Need a Bigger Boat).
 
 # More resources
 
