@@ -1,6 +1,6 @@
 # Open Source MLOps
 
-[Fuzzy Labs](https://fuzzylabs.ai)' guide to the universe of open source MLOps tools.
+This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and open source MLOps tools.
 
 ## Contents
 
@@ -8,7 +8,6 @@
 * [Data versioning](#data-versioning)
 * [Experiment tracking](#experiment-tracking)
 * [Model training](#model-training)
-* [Model deployment](#model-deployment)
 * [Model registries / storage](#model-registries-storage)
 * [Model deployment and serving](#model-deployment-and-serving)
 * [Model monitoring](#model-monitoring)
@@ -17,23 +16,18 @@
 
 # What is MLOps anyway?
 
-MLOps (machine learning operations) is a discipline that helps people to train, deploy and run machine learning models successfully in production environments.
+MLOps (machine learning operations) is a discipline that helps people to train, deploy and run machine learning models successfully in production environments. Because this is a new and rapidly-evolving field, there are a lot of tools out there, and new ones appear all the time. If we've missed any, then please do raise a pull request!
 
-There are a so many specialised tools for doing MLOps that it's difficult to know where to begin. To make matters worse, most tools fit into more than one category!
-
-# Data versioning
+# Data version control
 
 Just like code, data grows and evolves over time. Data versioning tools help you to keep track of these changes.
 
 You might wonder why you can't just store data in Git (or equivalent). There are a few reasons this doesn't work, but the main one is size: Git is designed for small text files, and typical datasets used in machine learning are just too big. Some tools, like DVC, store the data externally, but also integrate with Git so that data versions can be linked to code versions.
 
-Read more in our [guide to data versioning](https://medium.com/p/5c93d6a58823).
-
-* [DVC](https://dvc.org) - [example notebook](data-versioning/dvc.ipynb)
-* Delta Lake
-* Dolt
-* LakeFS
-* [Pachyderm community edition](https://www.pachyderm.com/products/#community-edition)
+* [DVC](https://dvc.org) - one of the most popular general-purpose data versioning tools.
+* [Delta Lake](https://delta.io) - data versioning for data warehouses.
+* [LakeFS](https://lakefs.io) - Transform your object storage into a Git-like repository.
+* [Git LFS](https://www.atlassian.com/git/tutorials/git-lfs) - while this doesn't specialise in machine learning use-cases, it's another popular way to version datasets.
 
 # Experiment tracking
 
@@ -68,6 +62,7 @@ Model serving is the process of taking a trained model and presenting it behind 
 # Model monitoring
 
 * [Evidently](https://evidentlyai.com)
+* [Boxkite ML](https://github.com/boxkite-ml/boxkite)
 
 # Full stacks
 
