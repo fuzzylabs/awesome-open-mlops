@@ -61,8 +61,8 @@ Model serving is the process of taking a trained model and presenting it behind 
 
 # Full stacks
 
-* [https://github.com/datarevenue-berlin/OpenMLOps](Open MLOps).
-* [https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat](You Don't Need a Bigger Boat).
+* [Open MLOps](https://github.com/datarevenue-berlin/OpenMLOps).
+* [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat).
 
 # More resources
 
