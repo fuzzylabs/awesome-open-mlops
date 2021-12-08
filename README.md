@@ -32,16 +32,16 @@ You might wonder why you can't just store data in Git (or equivalent). There are
 
 Machine learning involves a lot of experimentation. We end up training a lot of models, most of which are never intended to go into production, but represent progressive steps towards having something production-worthy. Experiment tracking tools are there to help us keep track of each experiment. What exactly do we need to track? typically this includes the code version, data version, input parameters, training performance metrics, as well as the final model assets.
 
-* [Sacred](https://github.com/IDSIA/sacred).
-* [Tensorboard](https://www.tensorflow.org/tensorboard).
-* [Guild.AI](https://guild.ai).
-* [MLFlow](https://mlflow.org).
+* [Sacred](https://github.com/IDSIA/sacred)
+* [Tensorboard](https://www.tensorflow.org/tensorboard)
+* [Guild.AI](https://guild.ai)
+* [MLFlow](https://mlflow.org)
 
 # Model training
 
-* [MLFlow](https://mlflow.org).
-* [Kubeflow](https://www.kubeflow.org).
-* [Metaflow](https://metaflow.org).
+* [MLFlow](https://mlflow.org)
+* [Kubeflow](https://www.kubeflow.org)
+* [Metaflow](https://metaflow.org)
 
 # Feature stores
 
@@ -56,18 +56,18 @@ Model serving is the process of taking a trained model and presenting it behind 
 
 # Model monitoring
 
-* [Evidently](https://evidentlyai.com).
-* [Boxkite ML](https://github.com/boxkite-ml/boxkite).
+* [Evidently](https://evidentlyai.com)
+* [Boxkite ML](https://github.com/boxkite-ml/boxkite)
 
 # Full stacks
 
-* [Open MLOps](https://github.com/datarevenue-berlin/OpenMLOps).
-* [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat).
+* [Open MLOps](https://github.com/datarevenue-berlin/OpenMLOps)
+* [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat)
 
 # More resources
 
 Here are some more resources for MLOps, both open-source and proprietary.
 
 * [Top 10 Open Source MLOps Tools](https://thechief.io/c/editorial/top-10-open-source-mlops-tools)
-* [The Awesome MLOps List](https://github.com/visenger/awesome-mlops) - a mixture of open source and proprietory tools and platforms.
+* [Awesome MLOps](https://github.com/visenger/awesome-mlops) - a mixture of open source and proprietory tools and platforms.
 * [Best open source MLOps tools](https://neptune.ai/blog/best-open-source-mlops-tools)
