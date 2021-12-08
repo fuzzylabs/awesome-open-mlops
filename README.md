@@ -5,7 +5,7 @@ This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and
 ## Contents
 
 * [What is MLOps, anyway?](#what-is-mlops)
-* [Data versioning](#data-versioning)
+* [Data version control](#data-versioning)
 * [Experiment tracking](#experiment-tracking)
 * [Model training](#model-training)
 * [Model deployment and serving](#model-deployment-and-serving)
