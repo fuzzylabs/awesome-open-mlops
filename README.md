@@ -4,10 +4,11 @@ This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and
 
 ## Contents
 
-* [What is MLOps, anyway?](#what-is-mlops)
-* [Data version control](#data-versioning)
+* [What is MLOps, anyway?](#what-is-mlops-anyway)
+* [Data version control](#data-version-control)
 * [Experiment tracking](#experiment-tracking)
 * [Model training](#model-training)
+* [Feature stores](#feature-stores)
 * [Model deployment and serving](#model-deployment-and-serving)
 * [Model monitoring](#model-monitoring)
 * [Full stacks](#full-stacks)
