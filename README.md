@@ -17,21 +17,21 @@ This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and
 
 # What is MLOps anyway?
 
-MLOps (machine learning operations) is a discipline that helps people to train, deploy and run machine learning models successfully in production environments. Because this is a new and rapidly-evolving field, there are a lot of tools out there, and new ones appear all the time. If we've missed any, then please do raise a pull request!
+MLOps (machine learning operations) is a discipline that helps people to train, deploy and run machine learning models successfully in production environments. Because this is a new and rapidly-evolving field, there are a lot of tools out there, and new ones appear all the time. If we've missed any, then please do raise a pull request! (but please ensure it meets the definitions of open source below).
 
 # What counts as open source?
 
 In deciding what to include in this list we apply 3 criteria.
 
-## Fits the definition
+**Fits the definition**
 
 Rather than invent our own definition, we defer to the Open Source Initiative's [definition of open source](https://opensource.org/osd). The OSI have laid out a set of clear and unambiguous requirements for something to be considered free _and_ open source.
 
-## Open source license
+**Open source license**
 
 So it follows that any OSI-approved license is acceptable, with examples including the various Apache, GPL, and BSD licenses. But this also means there are licenses that we don't include, such as the increasingly-popular Server Side Public License; to understand why, see the [OSI's writeup on the subject](https://opensource.org/node/1099).
 
-## Batteries included
+**Batteries included**
 
 We only list tools that are fully-functional and able to stand on their own. Some vendors offer limited open source versions of their tools, but ultimately those vendors want to guide you towards a SaaS offering. Sometimes there's a genuinely open-source client, but a proprietary server, meaning that the tool is not truly stand-alone. Everything in this collection come complete with _"batteries included"_.
 
@@ -61,11 +61,11 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 
 # Model training
 
-| Name                                 | License    | Description |
-|--------------------------------------|------------|-------------|
-| [MLFlow](https://mlflow.org)         | Apache 2.0 |             |
-| [Kubeflow](https://www.kubeflow.org) | Apache 2.0 |             |
-| [Metaflow](https://metaflow.org)     | Apache 2.0 |             |
+| Name                                       | License    | Description                                                                                       |
+|--------------------------------------------|------------|---------------------------------------------------------------------------------------------------|
+| [MLFlow](https://mlflow.org)               | Apache 2.0 |                                                                                                   |
+| [Kubeflow](https://www.kubeflow.org)       | Apache 2.0 |                                                                                                   |
+| [Metaflow](https://metaflow.org)           | Apache 2.0 |                                                                                                   |
 
 # Feature stores
 
@@ -77,19 +77,19 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 
 Model serving is the process of taking a trained model and presenting it behind a REST API, and this enables other software components to interact with a model. To make deployment of these model servers as simple as possible, it's commonplace to run them inside Docker containers and deploy them to a container orchestration system such as Kubernetes.
 
-| Name                                          | License    | Description |
-|-----------------------------------------------|------------|-------------|
-| [BentoML](https://github.com/bentoml/BentoML) | Apache 2.0 |             |
-| [Bodywork](https://www.bodyworkml.com)        | AGPL-3.0   |             |
+| Name                                                   | License    | Description |
+|--------------------------------------------------------|------------|-------------|
+| [BentoML](https://github.com/bentoml/BentoML)          | Apache 2.0 |             |
+| [Bodywork](https://www.bodyworkml.com)                 | AGPL-3.0   |             |
 
 # Model monitoring
 
 Monitoring means making sure that each deployed model is both functioning, and producing sensible results. We don't just want to check for errors in the traditional sense, but also for things like drift and signs of bias in the predictions and decisions that come from a model.
 
-| Name                                                | License    | Description |
-|-----------------------------------------------------|------------|-------------|
-| [Evidently](https://evidentlyai.com)                | Apache 2.0 |             |
-| [Boxkite ML](https://github.com/boxkite-ml/boxkite) | Apache 2.0 |             |
+| Name                                                                 | License    | Description |
+|----------------------------------------------------------------------|------------|-------------|
+| [Evidently](https://evidentlyai.com)                                 | Apache 2.0 |             |
+| [Boxkite ML](https://github.com/boxkite-ml/boxkite)                  | Apache 2.0 |             |
 
 # Full stacks
 
