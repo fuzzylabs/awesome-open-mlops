@@ -58,6 +58,7 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | [Tensorboard](https://www.tensorflow.org/tensorboard) | Apache 2.0 |             |
 | [Guild.AI](https://guild.ai)                          | Apache 2.0 |             |
 | [MLFlow](https://mlflow.org)                          | Apache 2.0 |             |
+| [Kedro](https://kedro.readthedocs.io/)                | Apache 2.0 | A Python framework for creating reproducible, maintainable and modular data science code. |
 
 # Model training
 
