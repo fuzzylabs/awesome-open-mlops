@@ -91,6 +91,7 @@ Monitoring means making sure that each deployed model is both functioning, and p
 |----------------------------------------------------------------------|------------|-------------|
 | [Evidently](https://evidentlyai.com)                                 | Apache 2.0 |             |
 | [Boxkite ML](https://github.com/boxkite-ml/boxkite)                  | Apache 2.0 |             |
+| [whylogs](https://github.com/whylabs/whylogs)                        | Apache 2.0 | whylogs allows users to generate data profiles, statistical summaries of data, that can be used as logs for an AI observability platform. |
 
 # Full stacks
 
