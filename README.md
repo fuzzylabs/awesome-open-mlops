@@ -72,6 +72,7 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | Name                       | License    | Description                           |
 |----------------------------|------------|---------------------------------------|
 | [Feast](https://feast.dev) | Apache 2.0 | A complete open source feature store. |
+| [Hopsworks](https://github.com/logicalclocks/hopsworks) | AGPL-3.0 | A feature store, feature engineering, and more. |
 
 # Model deployment and serving
 
