@@ -58,6 +58,7 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | [Tensorboard](https://www.tensorflow.org/tensorboard) | Apache 2.0 |             |
 | [Guild.AI](https://guild.ai)                          | Apache 2.0 |             |
 | [MLFlow](https://mlflow.org)                          | Apache 2.0 |             |
+| [Kedro](https://kedro.readthedocs.io/)                | Apache 2.0 | A Python framework for creating reproducible, maintainable and modular data science code. |
 
 # Model training
 
@@ -73,6 +74,7 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | Name                       | License    | Description                           |
 |----------------------------|------------|---------------------------------------|
 | [Feast](https://feast.dev) | Apache 2.0 | A complete open source feature store. |
+| [Hopsworks](https://github.com/logicalclocks/hopsworks) | AGPL-3.0 | A feature store, feature engineering, and more. |
 
 # Model deployment and serving
 
@@ -89,11 +91,12 @@ Model serving is the process of taking a trained model and presenting it behind 
 
 Monitoring means making sure that each deployed model is both functioning, and producing sensible results. We don't just want to check for errors in the traditional sense, but also for things like drift and signs of bias in the predictions and decisions that come from a model.
 
-| Name                                                                 | License    | Description |
-|----------------------------------------------------------------------|------------|-------------|
-| [Evidently](https://evidentlyai.com)                                 | Apache 2.0 |             |
-| [Boxkite ML](https://github.com/boxkite-ml/boxkite)                  | Apache 2.0 |             |
-| [Alibi Detect](https://github.com/SeldonIO/alibi-detect) (by Seldon) | Apache 2.0 |             |
+| Name                                                                 | License    | Description                                                                                                                               |
+|----------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| [Evidently](https://evidentlyai.com)                                 | Apache 2.0 |                                                                                                                                           |
+| [Boxkite ML](https://github.com/boxkite-ml/boxkite)                  | Apache 2.0 |                                                                                                                                           |
+| [Alibi Detect](https://github.com/SeldonIO/alibi-detect) (by Seldon) | Apache 2.0 |                                                                                                                                           |
+| [whylogs](https://github.com/whylabs/whylogs)                        | Apache 2.0 | whylogs allows users to generate data profiles, statistical summaries of data, that can be used as logs for an AI observability platform. |
 
 # Full stacks
 
