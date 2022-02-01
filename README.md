@@ -85,7 +85,7 @@ Model serving is the process of taking a trained model and presenting it behind 
 | [Seldon Core](https://github.com/SeldonIO/seldon-core) | Apache 2.0 | Turn your models into microservices to run on Kubernetes |
 | [BentoML](https://github.com/bentoml/BentoML)          | Apache 2.0 |                                                          |
 | [Bodywork](https://www.bodyworkml.com)                 | AGPL-3.0   |                                                          |
-| [Seldon Core](https://github.com/SeldonIO/seldon-core) | Apache 2.0 |                                                          |
+| KServe                                                 | Apache 2.0 |                                                          |
 
 # Model monitoring
 
