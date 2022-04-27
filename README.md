@@ -59,6 +59,8 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | [Guild.AI](https://guild.ai)                          | Apache 2.0 |                                                                                           |
 | [MLFlow](https://mlflow.org)                          | Apache 2.0 |                                                                                           |
 | [Kedro](https://kedro.readthedocs.io/)                | Apache 2.0 | A Python framework for creating reproducible, maintainable and modular data science code. |
+| [Weights and Biases](https://wandb.ai/)               | MIT        | Build better models faster with experiment tracking, dataset versioning, and model management.                                                                                   |
+
 
 # Model training
 
