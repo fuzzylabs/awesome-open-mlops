@@ -67,7 +67,6 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | [MLFlow](https://mlflow.org)               | Apache 2.0 |                                                                                                   |
 | [Kubeflow](https://www.kubeflow.org)       | Apache 2.0 |                                                                                                   |
 | [Metaflow](https://metaflow.org)           | Apache 2.0 |                                                                                                   |
-| [ZenML](https://github.com/zenml-io/zenml) | Apache 2.0 | An extensible, open-source MLOps framework to create production-ready machine learning pipelines. |
 
 # Feature stores
 
@@ -104,7 +103,7 @@ Monitoring means making sure that each deployed model is both functioning, and p
 | ---------------------------------------------------------------------------------------------- | ------- | ----------- |
 | [Open MLOps](https://github.com/datarevenue-berlin/OpenMLOps)                                  | MIT     |             |
 | [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat) | MIT     |             |
-
+| [ZenML](https://github.com/zenml-io/zenml) | Apache 2.0 | An extensible, open-source MLOps framework to create production-ready machine learning pipelines. |
 # Governance
 
 | Name                                   | License    | Description                                                                                                       |
