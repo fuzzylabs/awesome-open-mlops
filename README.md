@@ -68,6 +68,12 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | [Kubeflow](https://www.kubeflow.org)       | Apache 2.0 |                                                                                                   |
 | [Metaflow](https://metaflow.org)           | Apache 2.0 |                                                                                                   |
 
+# Workflows
+
+| Name                                    | License    | Description |
+|-----------------------------------------|------------|-------------|
+| [CML](https://github.com/iterative/cml) | Apache 2.0 |             |
+
 # Feature stores
 
 | Name                                                    | License    | Description                                     |
