@@ -76,7 +76,7 @@ Model registries are used to track the lifecycle of trained machine learning mod
 
 | Name                                       | License    | Description                                                                                       |
 | ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------- |
-| [MLFlow](https://mlflow.org)               | Apache 2.0 |            |
+| [MLFlow](https://mlflow.org)               | Apache 2.0 | The ML Flow [model registry](https://mlflow.org/docs/latest/model-registry.html) allows you to store, annotate, discover, and manage models in a central repository.           |
 | [modelstore](https://github.com/operatorai/modelstore)                | Apache 2.0 | A Python library for versioning, storing, and tracking ML model artefacts across several different types of storage. |
 
 # Workflows
