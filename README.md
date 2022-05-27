@@ -9,6 +9,7 @@ This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and
 - [Data version control](#data-version-control)
 - [Experiment tracking](#experiment-tracking)
 - [Model training](#model-training)
+- [Model registries](#model-registries)
 - [Feature stores](#feature-stores)
 - [Model deployment and serving](#model-deployment-and-serving)
 - [Model monitoring](#model-monitoring)
@@ -67,6 +68,16 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | [MLFlow](https://mlflow.org)               | Apache 2.0 |                                                                                                   |
 | [Kubeflow](https://www.kubeflow.org)       | Apache 2.0 |                                                                                                   |
 | [Metaflow](https://metaflow.org)           | Apache 2.0 |                                                                                                   |
+
+# Model registries
+
+Model registries are used to track the lifecycle of trained machine learning models.
+
+
+| Name                                       | License    | Description                                                                                       |
+| ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------- |
+| [MLFlow](https://mlflow.org)               | Apache 2.0 | The ML Flow [model registry](https://mlflow.org/docs/latest/model-registry.html) allows you to store, annotate, discover, and manage models in a central repository.           |
+| [modelstore](https://github.com/operatorai/modelstore)                | Apache 2.0 | A Python library for versioning, storing, and tracking ML model artefacts across several different types of storage. |
 
 # Workflows
 
