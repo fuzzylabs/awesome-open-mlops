@@ -67,8 +67,9 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | Name                                       | License    | Description                                                                                       |
 | ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------- |
 | [MLFlow](https://mlflow.org)               | Apache 2.0 |                                                                                                   |
-| [Kubeflow](https://www.kubeflow.org)       | Apache 2.0 |                                                                                                   |
+| [Kubeflow](https://www.kubeflow.org)       | Apache 2.0 | The machine learning toolkit for kubernetes                                                                                          |
 | [Metaflow](https://metaflow.org)           | Apache 2.0 |                                                                                                   |
+| [envd](https://github.com/tensorchord/envd)           | Apache 2.0 | The machine learning development environment for data science and AI/ML engineering teams.    |
 
 # Model registries
 
