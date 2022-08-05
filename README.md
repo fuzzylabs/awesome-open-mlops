@@ -1,7 +1,5 @@
 # Open Source MLOps
 
-Test
-
 This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and open source MLOps tools.
 
 ## Contents
@@ -139,7 +137,7 @@ Monitoring means making sure that each deployed model is both functioning, and p
 
 # More resources
 
-Here are some more resources for MLOps, both open-source and proprietary.
+Here are some more resources for MLOps, both open-source and proprietary
 
 - [Top 10 Open Source MLOps Tools](https://thechief.io/c/editorial/top-10-open-source-mlops-tools)
 - [Awesome MLOps](https://github.com/visenger/awesome-mlops) - a mixture of open source and proprietory tools and platforms.
