@@ -147,3 +147,7 @@ Here are some more resources for MLOps, both open-source and proprietary
 
 * Blah
 * Blah
+
+| table | t   |
+| ///   | /// |
+|       |     |
