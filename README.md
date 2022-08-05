@@ -142,3 +142,8 @@ Here are some more resources for MLOps, both open-source and proprietary
 - [Top 10 Open Source MLOps Tools](https://thechief.io/c/editorial/top-10-open-source-mlops-tools)
 - [Awesome MLOps](https://github.com/visenger/awesome-mlops) - a mixture of open source and proprietory tools and platforms.
 - [Best open source MLOps tools](https://neptune.ai/blog/best-open-source-mlops-tools)
+
+# My new section
+
+* Blah
+* Blah
