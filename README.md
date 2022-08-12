@@ -124,7 +124,7 @@ Monitoring means making sure that each deployed model is both functioning, and p
 
 # Data Catalogues 
 
-Tools for data discovery and data access control. Can be very important to workout / manage what data can be trained on vs. tested on, and how this rules vary from client to client. Great summary at https://atlan.com/open-source-data-governance-tools/. This space is pretty young with no real convergence on an expected set of features. They vary in focus between data discovery and data accesss management.
+Tools for data discovery and data access control. Can be very important to workout and manage what data can be trained on or tested on, and how these rules vary from client to client. Great summary at https://atlan.com/open-source-data-governance-tools/. This space is pretty young with no real convergence on an expected set of features. They vary in focus from data discovery to data accesss management.
 
 | Name                                                                                           | License       | Description |
 | ---------------------------------------------------------------------------------------------- | ------------- | ----------- |
