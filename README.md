@@ -122,6 +122,16 @@ Monitoring means making sure that each deployed model is both functioning, and p
 | [Alibi Detect](https://github.com/SeldonIO/alibi-detect) (by Seldon) | Apache 2.0 |                                                                                                                                           |
 | [whylogs](https://github.com/whylabs/whylogs)                        | Apache 2.0 | whylogs allows users to generate data profiles, statistical summaries of data, that can be used as logs for an AI observability platform. |
 
+# Data Catalogues 
+
+Tools for data discovery and data access control. Can be very important to workout / manage what data can be trained on vs. tested on, and how this rules vary from client to client. Great summary at https://atlan.com/open-source-data-governance-tools/. This space is pretty young with no real convergence on an expected set of features. They vary in focus between data discovery and data accesss management.
+
+| Name                                                                                           | License       | Description |
+| ---------------------------------------------------------------------------------------------- | ------------- | ----------- |
+| [Magda](https://magda.io/)                                                                     | Apache 2.0    |             |
+| [Amundsen](https://www.amundsen.io/)                                                           | Apache 2.0    |             |
+| [Apache Atlas](https://atlas.apache.org/)                                                      | Apache 2.0    |             |
+
 # Full stacks
 
 | Name                                                                                           | License | Description |
