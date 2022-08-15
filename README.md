@@ -6,6 +6,8 @@ This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and
 
 - [What is MLOps, anyway?](#what-is-mlops-anyway)
 - [What counts as open source?](#what-counts-as-open-source)
+- [Data annotation](#data-annotation)
+- [Data validation](#data-validation)
 - [Data version control](#data-version-control)
 - [Experiment tracking](#experiment-tracking)
 - [Model training](#model-training)
@@ -37,6 +39,33 @@ So it follows that any OSI-approved license is acceptable, with examples includi
 
 We only list tools that are fully-functional and able to stand on their own. Some vendors offer limited open source versions of their tools, but ultimately those vendors want to guide you towards a SaaS offering. Sometimes there's a genuinely open-source client, but a proprietary server, meaning that the tool is not truly stand-alone. Everything in this collection comes complete with _"batteries included"_.
 
+# Data annotation
+
+Data annotation (or labelling) tools help us create labelled training data for use in supervised learning. This is one of the most labour-intensive processes in machine learning, and one where good tooling can save a great deal of effort. Because data comes in a huge variety of types and formats, there are also a huge variety of different tools which specialise in certain types of data.
+
+| Supported Data Types | Name                                                                              | License    | Description                                                                                                                                                                                |
+| -------------------- | ---------------------------------------                                           | ---------- | -----------                                                                                                                                                                                |
+| Multiple             | [Label Studio](https://github.com/heartexlabs/label-studio)                       | Apache 2.0 | A Swiss army knife of data labelling.                                                                                                                                                      |
+| Text                 | [doccano](https://github.com/doccano/doccano)                                     | MIT        | A popular tool for text annotation to build datasets for NLP tasks such as sentiment analysis and named entity recognition. Easy to setup and support most languages.                      |
+| Image                | [labelme](https://github.com/wkentaro/labelme)                                    | GPL-3      | A graphical image annotation tool for object detection, segmentation, and classification. Supports polygon, circle, line, and point annotations.                                           |
+| Video                | [Computer Vision Annotation Tool (CVAT)](https://github.com/openvinotoolkit/cvat) | MIT        | One of the most popular video and image annotation tools used by professional data annotation teams. It can be used online so you can start labelling your data without any installations. |
+| Audio                | [Praat](https://github.com/praat/praat)                                           | GPL-3      | A speech analysis tool used for doing phonetics by computer. Some of its most prominent features are speech labelling and speech analysis.                                                 |
+
+For a more in-depth list of data annotation tools, check out [Open Source Data Annotation & Labeling Tools](https://github.com/zenml-io/awesome-open-data-annotation) by ZenML.
+
+# Data validation
+The golden rule of machine learning is that a model is only as good as the data used to train it. Data validation is the process of verifying that data is accurate and consistent. As errors in data can severely impact the performance of your model, it is crucial to spot data errors early.
+
+Sometimes your model might achieve good accuracy during training , but performs poorly on real-world data. This could be an indication that there are errors in your data which were not spotted during validation. Even a tiny mismatch in the format of the data provided to your machine learning model can significantly impact its performance.
+
+| Name                                                                                                      | License    | Description                                                                                                                                                                                                                       |
+| ----                                                                                                      | -------    | -----------                                                                                                                                                                                                                       |
+| [Great Expectations](https://github.com/great-expectations/great_expectations)                            | Apache 2.0 | An easy-to-use tool with over 280 assertions for validating, documenting, and profiling your data to maintain quality. Great Expectations works with a variety of data sources, including SQL databases, and various file formats |
+| [Data Validation Tool (DVT)](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | Apache 2.0 | A Python tool that allows you to build custom query validation, schema validation and much more. It also supports a wide range of databases such as MySql, Snowflake and BigQuery, just to name a few.                            |
+| [data-diff](https://github.com/datafold/data-diff)                                                        | MIT        | An open-source command-line tool to compare rows across two different databases. An ideal tool to use for data migration.                                                                                                         |
+| [Cerberus](https://github.com/pyeve/cerberus)                                                             | ISC        | A powerful yet simple data validation library for Python. Lightweight data validation functionality out-of-the-box and is designed to be easily extensible, allowing for custom validation.                                       |
+| [deequ](https://github.com/awslabs/deequ)                                                                 | Apache 2.0 | A library built on top of Apache Spark for defining "unit tests for data" in large datasets.                                                                                                                                      |
+
 # Data version control
 
 Just like code, data grows and evolves over time. Data versioning tools help you to keep track of these changes.
@@ -64,22 +93,21 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 
 # Model training
 
-| Name                                       | License    | Description                                                                                       |
-| ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------- |
-| [MLFlow](https://mlflow.org)               | Apache 2.0 |                                                                                                   |
-| [Kubeflow](https://www.kubeflow.org)       | Apache 2.0 | The machine learning toolkit for kubernetes                                                                                          |
-| [Metaflow](https://metaflow.org)           | Apache 2.0 |                                                                                                   |
-| [envd](https://github.com/tensorchord/envd)           | Apache 2.0 | The machine learning development environment for data science and AI/ML engineering teams.    |
+| Name                                        | License    | Description                                                                                       |
+| ------------------------------------------  | ---------- | ------------------------------------------------------------------------------------------------- |
+| [MLFlow](https://mlflow.org)                | Apache 2.0 |                                                                                                   |
+| [Kubeflow](https://www.kubeflow.org)        | Apache 2.0 | The machine learning toolkit for kubernetes                                                       |
+| [Metaflow](https://metaflow.org)            | Apache 2.0 |                                                                                                   |
+| [envd](https://github.com/tensorchord/envd) | Apache 2.0 | The machine learning development environment for data science and AI/ML engineering teams.        |
 
 # Model registries
 
 Model registries are used to track the lifecycle of trained machine learning models.
 
-
-| Name                                       | License    | Description                                                                                       |
-| ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------- |
-| [MLFlow](https://mlflow.org)               | Apache 2.0 | The ML Flow [model registry](https://mlflow.org/docs/latest/model-registry.html) allows you to store, annotate, discover, and manage models in a central repository.           |
-| [modelstore](https://github.com/operatorai/modelstore)                | Apache 2.0 | A Python library for versioning, storing, and tracking ML model artefacts across several different types of storage. |
+| Name                                                   | License    | Description                                                                                                                                                          |
+| ------------------------------------------             | ---------- | -------------------------------------------------------------------------------------------------                                                                    |
+| [MLFlow](https://mlflow.org)                           | Apache 2.0 | The ML Flow [model registry](https://mlflow.org/docs/latest/model-registry.html) allows you to store, annotate, discover, and manage models in a central repository. |
+| [modelstore](https://github.com/operatorai/modelstore) | Apache 2.0 | A Python library for versioning, storing, and tracking ML model artefacts across several different types of storage.                                                 |
 
 # Workflows
 
@@ -124,11 +152,11 @@ Monitoring means making sure that each deployed model is both functioning, and p
 
 # Full stacks
 
-| Name                                                                                           | License | Description |
-| ---------------------------------------------------------------------------------------------- | ------- | ----------- |
-| [Open MLOps](https://github.com/datarevenue-berlin/OpenMLOps)                                  | MIT     |             |
-| [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat) | MIT     |             |
-| [ZenML](https://github.com/zenml-io/zenml) | Apache 2.0 | An extensible, open-source MLOps framework to create production-ready machine learning pipelines. |
+| Name                                                                                           | License    | Description                                                                                       |
+| ---------------------------------------------------------------------------------------------- | -------    | -----------                                                                                       |
+| [Open MLOps](https://github.com/datarevenue-berlin/OpenMLOps)                                  | MIT        |                                                                                                   |
+| [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat) | MIT        |                                                                                                   |
+| [ZenML](https://github.com/zenml-io/zenml)                                                     | Apache 2.0 | An extensible, open-source MLOps framework to create production-ready machine learning pipelines. |
 # Governance
 
 | Name                                   | License    | Description                                                                                                       |
