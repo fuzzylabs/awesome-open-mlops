@@ -41,21 +41,17 @@ We only list tools that are fully-functional and able to stand on their own. Som
 
 # Data annotation
 
-Supervised learning is one of the most common ways of how machines can learn.
+Data annotation (or labelling) tools help us create labelled training data for use in supervised learning. This is one of the most labour-intensive processes in machine learning, and one where good tooling can save a great deal of effort. Because data comes in a huge variety of types and formats, there are also a huge variety of different tools which specialise in certain types of data.
 
-For supervised learning, data are required to be labelled, so that machine learning systems can use it to learn how to perform given tasks. Data annotation is essentially the process of labelling data in various formats such as video, images, or text so that machines can understand it.
+| Supported Data Types | Name                                                                              | License    | Description                                                                                                                                                                                |
+| -------------------- | ---------------------------------------                                           | ---------- | -----------                                                                                                                                                                                |
+| Multiple             | [Label Studio](https://github.com/heartexlabs/label-studio)                       | Apache 2.0 | A Swiss army knife of data labelling.                                                                                                                                                      |
+| Text                 | [doccano](https://github.com/doccano/doccano)                                     | MIT        | A popular tool for text annotation to build datasets for NLP tasks such as sentiment analysis and named entity recognition. Easy to setup and support most languages.                      |
+| Image                | [labelme](https://github.com/wkentaro/labelme)                                    | GPL-3      | A graphical image annotation tool for object detection, segmentation, and classification. Supports polygon, circle, line, and point annotations.                                           |
+| Video                | [Computer Vision Annotation Tool (CVAT)](https://github.com/openvinotoolkit/cvat) | MIT        | One of the most popular video and image annotation tools used by professional data annotation teams. It can be used online so you can start labelling your data without any installations. |
+| Audio                | [Praat](https://github.com/praat/praat)                                           | GPL-3      | A speech analysis tool used for doing phonetics by computer. Some of its most prominent features are speech labelling and speech analysis.                                                 |
 
-Below are some of the best open source data annotation tools that will help you to build your dataset for you machine learning models.
-
-| Supported Data Types | Name                                    | License    | Description |
-| -------------------- | --------------------------------------- | ---------- | ----------- |
-| Multiple | [Label Studio](https://github.com/heartexlabs/label-studio) | Apache 2.0 | A Swiss army knife of data labelling. |
-| Text | [doccano](https://github.com/doccano/doccano) | MIT | A popular tool for text annotation to build datasets for NLP tasks such as sentiment analysis and named entity recognition. Easy to setup and support most languages. |
-| Image | [labelme](https://github.com/wkentaro/labelme) | Custom | A graphical image annotation tool capable of annotating images for object detection, segmentation, and classification (along with polygon, circle, line, and point annotations). |
-| Video | [Computer Vision Annotation Tool (CVAT)](https://github.com/openvinotoolkit/cvat) | MIT | One of the most popular video and image annotation tools used by professional data annotation teams. It can be used online so you can start labelling your data without any installations. |
-| Audio | [Praat](https://github.com/praat/praat) | GPL-3 | A speech analysis tool used for doing phonetics by computer. Some of its most prominent features are speech labelling and speech analysis.
-
-For a more detailed list of data annotation tools, check out [Open Source Data Annotation & Labeling Tools](https://github.com/zenml-io/awesome-open-data-annotation) by ZenML.
+For a more in-depth list of data annotation tools, check out [Open Source Data Annotation & Labeling Tools](https://github.com/zenml-io/awesome-open-data-annotation) by ZenML.
 
 # Data validation
 The golden rule of machine learning is that an algorithm is only as good as the data it’s fed.
