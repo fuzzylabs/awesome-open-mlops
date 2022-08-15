@@ -54,19 +54,17 @@ Data annotation (or labelling) tools help us create labelled training data for u
 For a more in-depth list of data annotation tools, check out [Open Source Data Annotation & Labeling Tools](https://github.com/zenml-io/awesome-open-data-annotation) by ZenML.
 
 # Data validation
-The golden rule of machine learning is that an algorithm is only as good as the data it’s fed.
+The golden rule of machine learning is that a model is only as good as the data used to train it. Data validation is the process of verifying that data is accurate and consistent. As errors in data can severely impact the performance of your model, it is crucial to spot data errors early.
 
-Think of data validation as the guard post of your MLOps that does not let bad quality data in. Data validation is the process of verifying that data is accurate and consistent. As errors in data can severely impact the performance of your model, it is crucial to spot data errors early.
+Sometimes your model might achieve good accuracy during training , but performs poorly on real-world data. This could be an indication that there are errors in your data which were not spotted during validation. Even a tiny mismatch in the format of the data provided to your machine learning model can significantly impact its performance.
 
-Sometimes your model might achieve good accuracy during training , but performs poorly on real-world data. This could be an indication that there are errors in your data which were not spotted during validation. Even a tiny mismatch in the format of the data provided to your machine learning model can significantly impact its performance. Your MLOps pipeline expects new data all the time, data validation and model monitoring are the two necessary components to ensure that your model will continue to make accurate predictions after training with the new data.
-
-| Name | License | Description |
-| ---- | ------- | ----------- |
-| [Great Expectations](https://github.com/great-expectations/great_expectations) | Apache 2.0 | An easy to use tool with over 280 assertions for validating, documenting, and profiling your data to maintain quality. |
-| [Data Validation Tool (DVT)](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | Apache 2.0 | A Python command-line interface data validation tool that allows you to build custom query validation, schema validation and much more. It also supports a wide range of databases such as MySql, Snowflake and BigQuery, just to name a few.
-| [data-diff](https://github.com/datafold/data-diff) | MIT | An open-source command-line tool to compare rows across two different databases. An ideal tool to use for data migration.
-| [Cerberus](https://github.com/pyeve/cerberus) | ISC | A powerful yet simple data validation library for Python. Its lightweight data validation functionality out of the box and is designed to be easily extensible, allowing for custom validation.
-| [deequ](https://github.com/awslabs/deequ) | Apache 2.0 | A library built on top of Apache Spark for defining "unit tests for data" in large datasets.
+| Name                                                                                                      | License    | Description                                                                                                                                                                                                                       |
+| ----                                                                                                      | -------    | -----------                                                                                                                                                                                                                       |
+| [Great Expectations](https://github.com/great-expectations/great_expectations)                            | Apache 2.0 | An easy-to-use tool with over 280 assertions for validating, documenting, and profiling your data to maintain quality. Great Expectations works with a variety of data sources, including SQL databases, and various file formats |
+| [Data Validation Tool (DVT)](https://github.com/GoogleCloudPlatform/professional-services-data-validator) | Apache 2.0 | A Python tool that allows you to build custom query validation, schema validation and much more. It also supports a wide range of databases such as MySql, Snowflake and BigQuery, just to name a few.                            |
+| [data-diff](https://github.com/datafold/data-diff)                                                        | MIT        | An open-source command-line tool to compare rows across two different databases. An ideal tool to use for data migration.                                                                                                         |
+| [Cerberus](https://github.com/pyeve/cerberus)                                                             | ISC        | A powerful yet simple data validation library for Python. Lightweight data validation functionality out-of-the-box and is designed to be easily extensible, allowing for custom validation.                                       |
+| [deequ](https://github.com/awslabs/deequ)                                                                 | Apache 2.0 | A library built on top of Apache Spark for defining "unit tests for data" in large datasets.                                                                                                                                      |
 
 # Data version control
 
@@ -95,22 +93,21 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 
 # Model training
 
-| Name                                       | License    | Description                                                                                       |
-| ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------- |
-| [MLFlow](https://mlflow.org)               | Apache 2.0 |                                                                                                   |
-| [Kubeflow](https://www.kubeflow.org)       | Apache 2.0 | The machine learning toolkit for kubernetes                                                                                          |
-| [Metaflow](https://metaflow.org)           | Apache 2.0 |                                                                                                   |
-| [envd](https://github.com/tensorchord/envd)           | Apache 2.0 | The machine learning development environment for data science and AI/ML engineering teams.    |
+| Name                                        | License    | Description                                                                                       |
+| ------------------------------------------  | ---------- | ------------------------------------------------------------------------------------------------- |
+| [MLFlow](https://mlflow.org)                | Apache 2.0 |                                                                                                   |
+| [Kubeflow](https://www.kubeflow.org)        | Apache 2.0 | The machine learning toolkit for kubernetes                                                       |
+| [Metaflow](https://metaflow.org)            | Apache 2.0 |                                                                                                   |
+| [envd](https://github.com/tensorchord/envd) | Apache 2.0 | The machine learning development environment for data science and AI/ML engineering teams.        |
 
 # Model registries
 
 Model registries are used to track the lifecycle of trained machine learning models.
 
-
-| Name                                       | License    | Description                                                                                       |
-| ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------------- |
-| [MLFlow](https://mlflow.org)               | Apache 2.0 | The ML Flow [model registry](https://mlflow.org/docs/latest/model-registry.html) allows you to store, annotate, discover, and manage models in a central repository.           |
-| [modelstore](https://github.com/operatorai/modelstore)                | Apache 2.0 | A Python library for versioning, storing, and tracking ML model artefacts across several different types of storage. |
+| Name                                                   | License    | Description                                                                                                                                                          |
+| ------------------------------------------             | ---------- | -------------------------------------------------------------------------------------------------                                                                    |
+| [MLFlow](https://mlflow.org)                           | Apache 2.0 | The ML Flow [model registry](https://mlflow.org/docs/latest/model-registry.html) allows you to store, annotate, discover, and manage models in a central repository. |
+| [modelstore](https://github.com/operatorai/modelstore) | Apache 2.0 | A Python library for versioning, storing, and tracking ML model artefacts across several different types of storage.                                                 |
 
 # Workflows
 
@@ -155,11 +152,11 @@ Monitoring means making sure that each deployed model is both functioning, and p
 
 # Full stacks
 
-| Name                                                                                           | License | Description |
-| ---------------------------------------------------------------------------------------------- | ------- | ----------- |
-| [Open MLOps](https://github.com/datarevenue-berlin/OpenMLOps)                                  | MIT     |             |
-| [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat) | MIT     |             |
-| [ZenML](https://github.com/zenml-io/zenml) | Apache 2.0 | An extensible, open-source MLOps framework to create production-ready machine learning pipelines. |
+| Name                                                                                           | License    | Description                                                                                       |
+| ---------------------------------------------------------------------------------------------- | -------    | -----------                                                                                       |
+| [Open MLOps](https://github.com/datarevenue-berlin/OpenMLOps)                                  | MIT        |                                                                                                   |
+| [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat) | MIT        |                                                                                                   |
+| [ZenML](https://github.com/zenml-io/zenml)                                                     | Apache 2.0 | An extensible, open-source MLOps framework to create production-ready machine learning pipelines. |
 # Governance
 
 | Name                                   | License    | Description                                                                                                       |
