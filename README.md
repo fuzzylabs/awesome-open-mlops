@@ -113,7 +113,7 @@ Model registries are used to track the lifecycle of trained machine learning mod
 
 | Name                                    | License    | Description |
 |-----------------------------------------|------------|-------------|
-| [CML](https://github.com/iterative/cml) | Apache 2.0 |             |
+| [CML](https://github.com/iterative/cml) | Apache 2.0 |Continuous Machine Learning (CML) is CI/CD for Machine Learning Projects|
 
 # Feature stores
 
@@ -138,6 +138,8 @@ Model serving is the process of taking a trained model and presenting it behind 
 | [BentoML](https://github.com/bentoml/BentoML)          | Apache 2.0 |                                                          |
 | [Bodywork](https://www.bodyworkml.com)                 | AGPL-3.0   |                                                          |
 | KServe                                                 | Apache 2.0 |                                                          |
+| [MLEM](https://github.com/iterative/mlem)              | Apache 2.0 | 🐶 Version and deploy your ML models following GitOps principles |
+
 
 # Model monitoring
 
