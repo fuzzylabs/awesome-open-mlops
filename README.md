@@ -53,6 +53,17 @@ Data annotation (or labelling) tools help us create labelled training data for u
 
 For a more in-depth list of data annotation tools, check out [Open Source Data Annotation & Labeling Tools](https://github.com/zenml-io/awesome-open-data-annotation) by ZenML.
 
+## Image Analysis 
+
+A very recent category. Often solved by a combination of jupyter notebooks and streamlit, but that can only get you so far. If you work in Computer Vision, these tools are definitely worth making good use of. 
+
+
+| Name               | License     | Description |                                                                                                           
+| ------------------ | ----------- | ----------- |                                                                                                                                                                               
+| FiftyOne           | Apache 2.0  | FiftyOne supercharges your machine learning workflows by enabling you to visualize datasets and interpret models faster and more effectively.            |
+| DendroMap          | MIT License | DendroMap adds structure to the data by hierarchically clustering together similar images. Then, the clusters are displayed in a modified treemap visualization that supports zooming.            |
+
+
 # Data validation
 The golden rule of machine learning is that a model is only as good as the data used to train it. Data validation is the process of verifying that data is accurate and consistent. As errors in data can severely impact the performance of your model, it is crucial to spot data errors early.
 
