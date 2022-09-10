@@ -62,7 +62,7 @@ A very recent category. Often solved by a combination of jupyter notebooks and s
 | ------------------ | ----------- | ----------- |                                                                                                                                                                               
 | [FiftyOne](https://github.com/voxel51/fiftyone)           | Apache 2.0  | FiftyOne supercharges your machine learning workflows by enabling you to visualize datasets and interpret models faster and more effectively. Well established.            |
 | [DendroMap](https://github.com/div-lab/dendromap)          | MIT License | DendroMap adds structure to the data by hierarchically clustering together similar images. Then, the clusters are displayed in a modified treemap visualization that supports zooming. Recent upstart.           |
-| [Facets](https://github.com/pair-code/facets)  | Apache 2.0  | Has 2 components, dive and overview. Overview gives a high-level view of one or more data sets. Dive is a tool for interactively exploring up to tens of thousands of multidimensional data points |
+| [Facets](https://github.com/pair-code/facets)  | Apache 2.0  | Has 2 components, overview and dive. Overview gives a high-level view of one or more data sets. Dive is a tool for interactively exploring up to tens of thousands of multidimensional data points |
 
 
 # Data validation
