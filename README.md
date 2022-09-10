@@ -60,8 +60,9 @@ A very recent category. Often solved by a combination of jupyter notebooks and s
 
 | Name               | License     | Description |                                                                                                           
 | ------------------ | ----------- | ----------- |                                                                                                                                                                               
-| FiftyOne           | Apache 2.0  | FiftyOne supercharges your machine learning workflows by enabling you to visualize datasets and interpret models faster and more effectively. Well established.            |
-| DendroMap          | MIT License | DendroMap adds structure to the data by hierarchically clustering together similar images. Then, the clusters are displayed in a modified treemap visualization that supports zooming. Recent upstart.           |
+| [FiftyOne](https://github.com/voxel51/fiftyone)           | Apache 2.0  | FiftyOne supercharges your machine learning workflows by enabling you to visualize datasets and interpret models faster and more effectively. Well established.            |
+| [DendroMap](https://github.com/div-lab/dendromap)          | MIT License | DendroMap adds structure to the data by hierarchically clustering together similar images. Then, the clusters are displayed in a modified treemap visualization that supports zooming. Recent upstart.           |
+| [Facets](https://github.com/pair-code/facets)  | Apache 2.0  | 
 
 
 # Data validation
