@@ -64,6 +64,12 @@ A very recent category. Often solved by a combination of jupyter notebooks and s
 | [DendroMap](https://github.com/div-lab/dendromap)          | MIT License | DendroMap adds structure to the data by hierarchically clustering together similar images. Then, the clusters are displayed in a modified treemap visualization that supports zooming. Recent upstart.           |
 | [Facets](https://github.com/pair-code/facets)  | Apache 2.0  | Has 2 components, overview and dive. Overview gives a high-level view of one or more data sets. Dive is a tool for interactively exploring up to tens of thousands of multidimensional data points |
 
+## Augmentation Libraries
+
+Augly - https://github.com/facebookresearch/AugLy
+Albumentations
+Imgaug
+OpenCV (lower level), others will be built ontop of it.
 
 # Data validation
 The golden rule of machine learning is that a model is only as good as the data used to train it. Data validation is the process of verifying that data is accurate and consistent. As errors in data can severely impact the performance of your model, it is crucial to spot data errors early.
