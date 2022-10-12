@@ -171,6 +171,8 @@ Tools for data discovery and data access control. Can be very important to worko
 | [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat) | MIT        | An end-to-end open project, from real-world data to an endpoint serving Transformer-based predictions, supported by [videos](https://www.youtube.com/watch?v=Ndxpo4PeEms), [scholarly references](https://arxiv.org/abs/2107.07346) and a [TDS blog series](https://towardsdatascience.com/tagged/mlops-without-much-ops) on "Reasonable Scale" ML                                                                                                  |
 | [Recommendations at "Reasonable Scale"](https://github.com/jacopotagliabue/recs-at-resonable-scale) | MIT        | An end-to-end recommendation project leveraging NVIDIA Merlin library to train a deep learning model on top of the Modern Data Stack; the related NVIDIA [keynote talk](https://youtu.be/9rouLchcC0k?t=147) is also publicly available. |
 | [ZenML](https://github.com/zenml-io/zenml)                                                     | Apache 2.0 | An extensible, open-source MLOps framework to create production-ready machine learning pipelines. |
+| [MindsDB](https://github.com/mindsdb/mindsdb) | GPL-3.0 | MindsDB ML-SQL Server enables machine learning workflows for the most powerful databases and data warehouses using SQL. |
+
 # Governance
 
 | Name                                   | License    | Description                                                                                                       |
