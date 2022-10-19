@@ -100,6 +100,13 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | [Metaflow](https://metaflow.org)            | Apache 2.0 |                                                                                                   |
 | [envd](https://github.com/tensorchord/envd) | Apache 2.0 | The machine learning development environment for data science and AI/ML engineering teams.        |
 
+# Model validation
+Data validation has been around for some time, but what about validating ML? Although ML models are very dependant on the data that you feed them, models must also be validated before being released into the real world.
+
+| Name                                                 | License    | Description                                                                                       |
+| ---------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------- |
+| [Trubrics](https://github.com/trubrics/trubrics-sdk) | Apache 2.0 |Validate machine learning with data science and domain expert feedback.    |
+
 # Model registries
 
 Model registries are used to track the lifecycle of trained machine learning models.
