@@ -129,7 +129,7 @@ Model registries are used to track the lifecycle of trained machine learning mod
 | ------------------------------------------------------- | ---------- | ----------------------------------------------- |
 | [Feast](https://feast.dev)                              | Apache 2.0 | A complete open source feature store.           |
 | [Hopsworks](https://github.com/logicalclocks/hopsworks) | AGPL-3.0   | A feature store, feature engineering, and more. |
-
+| [Feathr](https://github.com/feathr-ai/feathr)           | Apache 2.0 | Enterprise-grade, high performance feature store|
 # Feature Engineering
 
 | Name                                                    | License    | Description                                     |
