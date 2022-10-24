@@ -11,6 +11,7 @@ This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and
 - [Data version control](#data-version-control)
 - [Experiment tracking](#experiment-tracking)
 - [Model training](#model-training)
+- [Model validation](#model-validation)
 - [Model registries](#model-registries)
 - [Feature stores](#feature-stores)
 - [Feature engineering](#feature-engineering)
