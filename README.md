@@ -160,6 +160,7 @@ Monitoring means making sure that each deployed model is both functioning, and p
 | [Alibi Detect](https://github.com/SeldonIO/alibi-detect) (by Seldon) | Apache 2.0 |                                                                                                                                           |
 | [whylogs](https://github.com/whylabs/whylogs)                        | Apache 2.0 | whylogs allows users to generate data profiles, statistical summaries of data, that can be used as logs for an AI observability platform. |
 | [RecList](https://reclist.io/)                        | MIT | RecList is an open source library providing behavioral testing for recommender systems, to be used either offline or online for a better understanding of model "true" generalization abilities. RecList comes with a [WWW paper](https://arxiv.org/abs/2111.09963), and several [tutorials](https://www.youtube.com/watch?v=cAlJYxFYA04). |
+| [Phoenix](https://phoenix.arize.com)                                 | Elastic License 2.0 (ELv2) | Phoenix: open-source tool for ML observability that runs in your notebook environment. Monitor and fine tune LLM, CV and Tabular Models.
 
 # Data Catalogues 
 
