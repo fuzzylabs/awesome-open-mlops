@@ -156,7 +156,7 @@ Monitoring means making sure that each deployed model is both functioning, and p
 
 | Name                                                                 | License    | Description                                                                                                                               |
 | -------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [Evidently](https://evidentlyai.com)                                 | Apache 2.0 |                                                                                                                                           |
+| [Evidently](https://evidentlyai.com)                                 | Apache 2.0 | An open-source framework to evaluate, test and monitor ML and LLM-powered systems.                                                                                                                                          |
 | [Boxkite ML](https://github.com/boxkite-ml/boxkite)                  | Apache 2.0 |                                                                                                                                           |
 | [Alibi Detect](https://github.com/SeldonIO/alibi-detect) (by Seldon) | Apache 2.0 |                                                                                                                                           |
 | [whylogs](https://github.com/whylabs/whylogs)                        | Apache 2.0 | whylogs allows users to generate data profiles, statistical summaries of data, that can be used as logs for an AI observability platform. |
