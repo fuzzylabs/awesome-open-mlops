@@ -87,7 +87,7 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | Name                                                  | License    | Description                                                                               |
 | ----------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------- |
 | [Sacred](https://github.com/IDSIA/sacred)             | MIT        |                                                                                           |
-| [CometLLM](https://github.com/comet-ml/comet-llm)     | MIT        | Track, visualize, and evaluate your LLM prompts in one convenient UI.                     |
+| [Opik](https://github.com/comet-ml/opik)              | Apache-2.0 | Evaluate, test, and ship LLM applications across your dev and production lifecycle        |
 | [Tensorboard](https://www.tensorflow.org/tensorboard) | Apache 2.0 |                                                                                           |
 | [Guild.AI](https://guild.ai)                          | Apache 2.0 |                                                                                           |
 | [MLFlow](https://mlflow.org)                          | Apache 2.0 |                                                                                           |
