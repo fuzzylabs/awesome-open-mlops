@@ -159,6 +159,7 @@ Monitoring means making sure that each deployed model is both functioning, and p
 
 | Name                                                                 | License    | Description                                                                                                                               |
 | -------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [ml3-drift](https://github.com/ml-cube/ml3-drift)                        | Apache 2.0 | ml3-drift is an open source AI library that provides seamless integration of drift detection algorithms into existing Machine Learning and AI frameworks. |
 | [DriftGuard](https://github.com/kiplangatkorir/driftguard)           | MIT        | Lightweight library for real-time or batch data & concept-drift detection. Ships a FastAPI example, e-mail alert hooks, KS/JSD/PSI tests, and one-line "wrap-your-model" API. |
 | [Evidently](https://evidentlyai.com)                                 | Apache 2.0 |                                                                                                                                           |
 | [Frouros](https://github.com/IFCA-Advanced-Computing/frouros)        | BSD-3-Clause | Drift-detection toolkit with a stable API, >25 detectors (DDM, EDDM, ADWIN, MMD, JS distance, etc.) and scikit-style `fit/score`. Pure-Python, no hard deps. |
@@ -166,6 +167,7 @@ Monitoring means making sure that each deployed model is both functioning, and p
 | [Alibi Detect](https://github.com/SeldonIO/alibi-detect) (by Seldon) | Apache 2.0 |                                                                                                                                           |
 | [whylogs](https://github.com/whylabs/whylogs)                        | Apache 2.0 | whylogs allows users to generate data profiles, statistical summaries of data, that can be used as logs for an AI observability platform. |
 | [RecList](https://reclist.io/)                        | MIT | RecList is an open source library providing behavioral testing for recommender systems, to be used either offline or online for a better understanding of model "true" generalization abilities. RecList comes with a [WWW paper](https://arxiv.org/abs/2111.09963), and several [tutorials](https://www.youtube.com/watch?v=cAlJYxFYA04). |
+
 
 # Data Catalogues 
 
