@@ -54,6 +54,24 @@ Data annotation (or labelling) tools help us create labelled training data for u
 
 For a more in-depth list of data annotation tools, check out [Open Source Data Annotation & Labeling Tools](https://github.com/zenml-io/awesome-open-data-annotation) by ZenML.
 
+## Image Analysis 
+
+A very recent category. Often solved by a combination of jupyter notebooks and streamlit, but that can only get you so far. If you work in Computer Vision, these tools are definitely worth making good use of. 
+
+
+| Name               | License     | Description |                                                                                                           
+| ------------------ | ----------- | ----------- |                                                                                                                                                                               
+| [FiftyOne](https://github.com/voxel51/fiftyone)           | Apache 2.0  | FiftyOne supercharges your machine learning workflows by enabling you to visualize datasets and interpret models faster and more effectively. Well established.            |
+| [DendroMap](https://github.com/div-lab/dendromap)          | MIT License | DendroMap adds structure to the data by hierarchically clustering together similar images. Then, the clusters are displayed in a modified treemap visualization that supports zooming. Recent upstart.           |
+| [Facets](https://github.com/pair-code/facets)  | Apache 2.0  | Has 2 components, overview and dive. Overview gives a high-level view of one or more data sets. Dive is a tool for interactively exploring up to tens of thousands of multidimensional data points |
+
+## Augmentation Libraries
+
+Augly - https://github.com/facebookresearch/AugLy
+Albumentations
+Imgaug
+OpenCV (lower level), others will be built ontop of it.
+
 # Data validation
 The golden rule of machine learning is that a model is only as good as the data used to train it. Data validation is the process of verifying that data is accurate and consistent. As errors in data can severely impact the performance of your model, it is crucial to spot data errors early.
 
@@ -166,6 +184,16 @@ Monitoring means making sure that each deployed model is both functioning, and p
 | [Alibi Detect](https://github.com/SeldonIO/alibi-detect) (by Seldon) | Apache 2.0 |                                                                                                                                           |
 | [whylogs](https://github.com/whylabs/whylogs)                        | Apache 2.0 | whylogs allows users to generate data profiles, statistical summaries of data, that can be used as logs for an AI observability platform. |
 | [RecList](https://reclist.io/)                        | MIT | RecList is an open source library providing behavioral testing for recommender systems, to be used either offline or online for a better understanding of model "true" generalization abilities. RecList comes with a [WWW paper](https://arxiv.org/abs/2111.09963), and several [tutorials](https://www.youtube.com/watch?v=cAlJYxFYA04). |
+
+# Data Catalogues 
+
+Tools for data discovery and data access control. Can be very important to workout and manage what data can be trained on or tested on, and how these rules vary from client to client. Great summary at https://atlan.com/open-source-data-governance-tools/. This space is pretty young with no real convergence on an expected set of features. They vary in focus from data discovery to data accesss management.
+
+| Name                                                                                           | License       | Description |
+| ---------------------------------------------------------------------------------------------- | ------------- | ----------- |
+| [Magda](https://magda.io/)                                                                     | Apache 2.0    |             |
+| [Amundsen](https://www.amundsen.io/)                                                           | Apache 2.0    |             |
+| [Apache Atlas](https://atlas.apache.org/)                                                      | Apache 2.0    |             |
 
 # Data Catalogues 
 
