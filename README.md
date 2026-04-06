@@ -2,6 +2,7 @@
 
 This is the [Fuzzy Labs](https://fuzzylabs.ai) guide to the universe of free and open source MLOps tools.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Claude Code multi-agent orchestration with MLOps-compatible monitoring and quality gates. MIT licensed.
 ## Contents
 
 - [What is MLOps, anyway?](#what-is-mlops-anyway)
