@@ -151,6 +151,7 @@ Model serving is the process of taking a trained model and presenting it behind 
 | [Bodywork](https://www.bodyworkml.com)                 | AGPL-3.0   |                                                          |
 | KServe                                                 | Apache 2.0 |                                                          |
 | [MLEM](https://github.com/iterative/mlem)              | Apache 2.0 | 🐶 Version and deploy your ML models following GitOps principles |
+| [Inference Labs MCP](https://github.com/bosslesss/inference-labs-mcp) | Apache 2.0 | Vendor-neutral MCP server for LLM routing and comparison across OpenAI/Azure, Anthropic, Google, and Bedrock. Includes auth-free pricing and model recommendation tools for cost-aware serving workflows. |
 
 
 # Model monitoring
