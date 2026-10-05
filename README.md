@@ -104,6 +104,7 @@ Machine learning involves a lot of experimentation. We end up training a lot of 
 | [Kubeflow](https://www.kubeflow.org)        | Apache 2.0 | The machine learning toolkit for kubernetes                                                       |
 | [Metaflow](https://metaflow.org)            | Apache 2.0 |                                                                                                   |
 | [envd](https://github.com/tensorchord/envd) | Apache 2.0 | The machine learning development environment for data science and AI/ML engineering teams.        |
+| [Vivacious Cloud](https://github.com/Viavcious-cloud/vivacious-cli) | MIT        | Zero-code multi-cloud training orchestrator with preflight VRAM guards and spot GPU arbitrage.      |
 
 # Model validation
 Data validation has been around for some time, but what about validating ML? Although ML models are very dependant on the data that you feed them, models must also be validated before being released into the real world.
